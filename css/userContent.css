@@ -1,4 +1,5 @@
 @import "_vars.css";
+@import "_dev-tools.css";
 
 @-moz-document url-prefix(about:) {
   html,
@@ -10,13 +11,13 @@
     background-size: cover !important;
     opacity: 0.9 !important;
   }
-  
-  /* search bar */
+
+  /* search bar int about:preferences */
   .sticky-container {
     background-color: var(--bg) !important;
     margin-bottom: 20px !important;
   }
-  
+
   .sticky-inner-container {
     margin-bottom: -20px !important;
   }

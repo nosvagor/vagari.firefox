@@ -1,1 +1,20 @@
 @import "_vars.css";
+@import "_menu.css";
+@import "_tab-bar.css";
+@import "_mega-bar.css";
+@import "_bookmarks-bar.css";
+@import "_side-bar.css";
+@import "_find-bar.css";
+@import "_nav-bar.css";
+
+
+/* Change bars order */
+#PersonalToolbar {
+    -moz-box-ordinal-group: 3 !important;
+}
+#titlebar {
+    -moz-box-ordinal-group: 2 !important;
+}
+#nav-bar {
+    -moz-box-ordinal-group: 1 !important;
+}
