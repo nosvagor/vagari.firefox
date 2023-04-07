@@ -5,11 +5,6 @@
   html,
   body {
     background-color: var(--bg) !important;
-    background-image: url(https://raw.githubusercontent.com/nosvagor/dotfiles/main/share/videos/dna.mp4) !important;
-    background-position: 50% !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    opacity: 0.9 !important;
   }
 
   /* search bar int about:preferences */

@@ -1,1 +1,86 @@
-/* I exist to make the tab bar look better */
+/* ⚰️ cull annoying things ⚰️ */
+#new-tab-button, #alltabs-button,
+#scrollbutton-up, #scrollbutton-down,
+.titlebar-buttonbox-container, .titlebar-spacer, 
+.tab-close-button {
+    display: none !important;
+}
+
+/* --- Hide Tab bar with only one Tab - [110] --- */
+
+#tabbrowser-tabs .tabbrowser-tab:only-of-type {
+   transition: all var(--snap) !important;
+   opacity: 0 !important;
+   margin-top: -100px !important; /* large value creates a bounce effect when reappearing */
+   margin-left: -100px !important; /* large value creates a bounce effect when reappearing */
+}
+
+/* Smooth appearance when new tab is added - [110] */
+#tabbrowser-tabs .tabbrowser-tab:not(only-of-type) {
+   transition: all var(--snap) !important;
+   margin: 0 !important;
+}
+
+#tabbrowser-tabs, #tabbrowser-arrowscrollbox { 
+    min-height: 0 !important;
+    background: var(--bg) !important;
+}
+/* ---------------------------------------------- */
+
+#tabbrowser-arrowscrollbox {
+  padding: 0 8px !important;
+  margin-top: -2px !important;
+}
+
+#tabbrowser-tabs {
+  --tab-min-height: 24px;
+}
+
+.tab-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.tabbrowser-tab .tab-background {
+    background: var(--bg) !important;
+    border: 1px outset var(--blu-1) !important;
+    border-radius: 6px !important;
+    margin: 6px 3px !important;
+    color: var(--blu-4) !important;
+    transition: all var(--snap) !important;
+}
+
+.tabbrowser-tab .tab-stack {
+    color: var(--blu-2) !important;
+    transition: color var(--snap) !important;
+}
+
+.tabbrowser-tab[selected] .tab-background {
+    background: var(--glc-1) !important;
+    border-color: var(--orn-4) !important;
+    box-shadow: 0 0 3px -1px var(--rby-0) !important;
+    transition: all var(--snap) !important;
+}
+
+.tabbrowser-tab[selected] .tab-stack {
+    color: var(--blu-4) !important;
+    transition: color var(--snap) !important;
+    font-weight: 500;
+}
+
+.tabbrowser-tab:hover .tab-background {
+    background: var(--rst-025) !important;
+    border-color: var(--orn-3) !important;
+    box-shadow: 0 0 4px -2px var(--rby-0) !important;
+    transition: all var(--snap) !important;
+}
+.tabbrowser-tab:hover .tab-stack {
+    color: var(--orn-4) !important;
+    font-weight: 600;
+    transition: color var(--snap) !important;
+}
+
+#navigator-toolbox {
+    border-bottom: 0 !important;
+}

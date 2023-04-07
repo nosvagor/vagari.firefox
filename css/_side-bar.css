@@ -1,1 +1,5 @@
 /* I exist to make the side bar look better */
+
+.hidevscroll-scrollbar  {
+  display: none !important;
+}

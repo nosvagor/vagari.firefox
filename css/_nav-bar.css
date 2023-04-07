@@ -1,1 +1,109 @@
-/* I exist to make the nav bar look better */
+/* ⚰️ cull annoying things ⚰️ */
+.search-one-offs {
+    display: none !important;
+}
+
+
+#nav-bar {
+    background-color: var(--bg) !important;
+    box-shadow: none !important;
+}
+
+.toolbarbutton-1, #star-button {
+    fill: var(--blu-4) !important;
+    transition: all var(--snap) !important;
+}
+
+.toolbarbutton-1[disabled] {
+    fill: var(--slt-3) !important;
+}
+
+.toolbarbutton-1[disabled]:hover {
+    fill: var(--slt-0) !important;
+}
+
+.toolbarbutton-1:hover,
+.toolbarbutton-1[open="true"] {
+    fill: var(--orn-4) !important;
+}
+
+.toolbarbutton-1 .toolbarbutton-icon,
+.toolbarbutton-1 .toolbarbutton-badge-stack {
+    background: none !important;
+}
+
+#PanelUI-button {
+    margin-bottom: -3px !important;
+    margin-right: 1px !important;
+}
+
+#urlbar-input {
+    color: var(--fg) !important;
+    font-family: monospace !important;
+    font-size: 0.8em !important; 
+}
+
+#urlbar-input::selection {
+   background-color: var(--glc-1) !important;
+   color: var(--tyr-3) !important;
+}    
+
+#urlbar #urlbar-background {
+    background-color: var(--drk-1) !important;
+    border: 1px inset var(--slt-1) !important;
+    border-radius: 8px !important;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25) !important;
+    transition: color var(--snap) !important;
+}
+
+#urlbar[open="true"] #urlbar-background {
+    border-radius: 16px !important;
+    border-color: var(--blu-2) !important;
+}
+
+.urlbarView #urlbar-results {
+    color: var(--blu-3) !important;
+}
+.urlbarView #urlbar-results .urlbarView-row .urlbarView-url {
+    color: var(--tyr-3) !important;
+    font-family: monospace !important;
+    font-size: 0.7em !important;
+}
+
+#urlbar-results .urlbarView-row:hover,
+#urlbar-results .urlbarView-row[selected] {
+   background: var(--glc-1) !important;
+   color: var(--orn-4) !important;  
+}
+
+.urlbarView-action, 
+#urlbar-label-box,
+#urlbar-search-mode-indicator {
+    background: none !important;
+    font-weight: 800 !important;
+    color: var(--orn-3) !important;
+}
+
+#star-button:hover, .urlbarView-type-icon {
+    fill: var(--sun-2) !important;
+    transition: all var(--snap) !important;
+}
+
+#star-button-box:hover {
+    background: none !important;
+}
+
+#urlbar-zoom-button {
+    background-color: var(--drk-1) !important;
+    color: var(--blu-4) !important;
+    margin-bottom: 4px !important;
+    transition: all var(--snap) !important;
+}
+
+#urlbar-zoom-button:hover {
+    color: var(--orn-4) !important;
+    transition: all var(--snap) !important;
+    font-weight: 600 !important;
+    font-size: 1.1em !important;
+    margin-bottom: 4px !important;
+}

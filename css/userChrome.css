@@ -1,8 +1,6 @@
 @import "_vars.css";
 @import "_menu.css";
 @import "_tab-bar.css";
-@import "_mega-bar.css";
-@import "_bookmarks-bar.css";
 @import "_side-bar.css";
 @import "_find-bar.css";
 @import "_nav-bar.css";
@@ -17,4 +15,24 @@
 }
 #nav-bar {
     -moz-box-ordinal-group: 1 !important;
+}
+
+
+/* hide bookmarks bar, always */
+#PersonalToolbar {
+  display: none !important;
+}
+
+
+/* disable megabar behavior */
+#urlbar[breakout][breakout-extend] {
+  top: calc( (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  left: 0px !important;
+  width: 100% !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding-inline: 0 !important;
+  padding-block: 0 !important;
 }
