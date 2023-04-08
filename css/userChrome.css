@@ -1,38 +1,31 @@
 @import "_vars.css";
 @import "_menu.css";
-@import "_tab-bar.css";
 @import "_side-bar.css";
 @import "_find-bar.css";
 @import "_nav-bar.css";
+@import "_tab-bar.css";
 
+:root {
+  --focus-outline-color: var(--orn-3) !important;
+}
 
 /* Change bars order */
-#PersonalToolbar {
-    -moz-box-ordinal-group: 3 !important;
-}
 #titlebar {
-    -moz-box-ordinal-group: 2 !important;
+  -moz-box-ordinal-group: 3 !important;
 }
 #nav-bar {
-    -moz-box-ordinal-group: 1 !important;
+  -moz-box-ordinal-group: 2 !important;
+}
+#toolbar-menubar {
+  -moz-box-ordinal-group: 1 !important;
 }
 
-
-/* hide bookmarks bar, always */
+/* hide bookmarks bar, literally always */
 #PersonalToolbar {
   display: none !important;
 }
 
-
-/* disable megabar behavior */
-#urlbar[breakout][breakout-extend] {
-  top: calc( (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-  left: 0px !important;
-  width: 100% !important;
+#navigator-toolbox {
+  border-bottom: 0 !important;
 }
 
-#urlbar[breakout][breakout-extend] > #urlbar-input-container {
-  height: var(--urlbar-height) !important;
-  padding-inline: 0 !important;
-  padding-block: 0 !important;
-}

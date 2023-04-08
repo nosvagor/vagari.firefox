@@ -1,1 +1,60 @@
-/* I exist to make menus look better */
+/* cull */
+#context-navigation {
+  display: none !important;
+}
+
+/* toolbar menus (alt) */
+#toolbar-menubar {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  transition: all var(--snap) !important;
+}
+
+#toolbar-menubar:not([inactive="true"]) {
+  height: 32px !important; /* Set your desired height */
+}
+
+#main-menubar > menu[_moz-menuactive="true"],
+#main-menubar > menu:hover {
+  background: var(--bg) !important;
+  color: var(--orn-3) !important;
+  font-weight: 600 !important;
+  transition: color var(--snap), font-weight var(--snap) !important;
+}
+
+menupopup,
+panel {
+  --panel-color: var(--fg) !important;
+  --panel-background: var(--bg) !important;
+  --panel-border-color: var(--orn-3) !important;
+  --panel-shadow: 0 0 3px 0px var(--rby-1) !important;
+  --button-bgcolor: var(--bg) !important;
+}
+
+sidebarMenu-popup toolbarbutton:hover,
+panel treechildren::-moz-tree-row(selected),
+panel button:hover,
+menu:hover,
+menu[_moz-menuactive],
+menu[open],
+menuitem:hover,
+menuitem[_moz-menuactive] {
+    background: var(--glc-2) !important;
+    color: var(--orn-4) !important;
+    transition: color var(--snap) !important;
+}
+
+menu[disabled="true"] {
+    color: var(--glc-3) !important;
+}
+menuitem[disabled="true"] {
+    color: var(--glc-3) !important;
+}
+
+panelview {
+    background: var(--bg) !important;
+}
+
+panelview toolbarbutton:hover {
+  color: var(--orn-4) !important;
+}

@@ -2,17 +2,16 @@
 #new-tab-button, #alltabs-button,
 #scrollbutton-up, #scrollbutton-down,
 .titlebar-buttonbox-container, .titlebar-spacer, 
-.tab-close-button {
+.tab-close-button, .tab-icon-sound-label {
     display: none !important;
 }
 
 /* --- Hide Tab bar with only one Tab - [110] --- */
-
 #tabbrowser-tabs .tabbrowser-tab:only-of-type {
    transition: all var(--snap) !important;
    opacity: 0 !important;
-   margin-top: -100px !important; /* large value creates a bounce effect when reappearing */
-   margin-left: -100px !important; /* large value creates a bounce effect when reappearing */
+   margin-top: -41px !important;
+   margin-left: -150px !important; /* large value creates a bounce effect when reappearing */
 }
 
 /* Smooth appearance when new tab is added - [110] */
@@ -28,15 +27,18 @@
 /* ---------------------------------------------- */
 
 #tabbrowser-arrowscrollbox {
-  padding: 0 8px !important;
+  padding: 0 3px !important;
   margin-top: -2px !important;
+  margin-bottom: 2px !important;
 }
 
 #tabbrowser-tabs {
-  --tab-min-height: 24px;
+  --tab-min-height: 24px !important;
 }
 
 .tab-content {
+  padding: 0px 30px !important;
+  margin: -1px 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -75,12 +77,9 @@
     box-shadow: 0 0 4px -2px var(--rby-0) !important;
     transition: all var(--snap) !important;
 }
+
 .tabbrowser-tab:hover .tab-stack {
     color: var(--orn-4) !important;
     font-weight: 600;
     transition: color var(--snap) !important;
-}
-
-#navigator-toolbox {
-    border-bottom: 0 !important;
 }

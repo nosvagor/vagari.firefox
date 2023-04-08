@@ -1,8 +1,23 @@
 /* ⚰️ cull annoying things ⚰️ */
-.search-one-offs {
+.search-one-offs,
+#urlbar-search-mode-indicator-close {
     display: none !important;
 }
 
+/* disable megabar behavior */
+#urlbar[breakout][breakout-extend] {
+  top: calc( (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  left: 0px !important;
+  width: 100% !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding-inline: 0 !important;
+  padding-block: 0 !important;
+  padding-left: 6px !important;
+  transition: padding var(--snap) !important;
+}
 
 #nav-bar {
     background-color: var(--bg) !important;
@@ -23,6 +38,8 @@
 }
 
 .toolbarbutton-1:hover,
+.toolbarbutton-1:focus,
+.chromeclass-toolbar-additional:hover,
 .toolbarbutton-1[open="true"] {
     fill: var(--orn-4) !important;
 }
@@ -45,7 +62,7 @@
 
 #urlbar-input::selection {
    background-color: var(--glc-1) !important;
-   color: var(--tyr-3) !important;
+   color: var(--orn-4) !important;
 }    
 
 #urlbar #urlbar-background {
@@ -64,6 +81,7 @@
 .urlbarView #urlbar-results {
     color: var(--blu-3) !important;
 }
+
 .urlbarView #urlbar-results .urlbarView-row .urlbarView-url {
     color: var(--tyr-3) !important;
     font-family: monospace !important;
@@ -106,4 +124,32 @@
     font-weight: 600 !important;
     font-size: 1.1em !important;
     margin-bottom: 4px !important;
+}
+
+#tracking-protection-icon,
+#tracking-protection-icon-container,
+.identity-box-button {
+    fill: var(--slt-3) !important;
+    background: none !important;
+    margin-right: -5px !important;
+    transition: all var(--snap) !important;
+} 
+
+#tracking-protection-icon:hover,
+.identity-box-button:hover {
+    fill: var(--orn-4) !important;
+    transition: all var(--snap) !important;
+}
+
+#identity-box {
+    margin-right: 6px !important;
+}
+
+#tracking-protection-icon-container {
+    margin-left: 6px !important;
+}
+
+#star-button-box {
+    margin-right: 6px !important;
+    margin-left: -10px !important;
 }
