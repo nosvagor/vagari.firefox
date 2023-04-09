@@ -44,23 +44,7 @@
 
 <br>
 
-https://user-images.githubusercontent.com/59071534/230797456-4b5df3b7-a4ec-4c0d-b9e4-c012e9adf5a4.mp4
-
-<br>
-
-<p align="center">
-    <kbd>
-        <img
-            src="https://github.com/nosvagor/vagari.firefox/blob/main/share/example-1.png?raw=true"/>
-    </kbd>
-    <br>
-    <br>
-    <kbd>
-        <img
-            src="https://github.com/nosvagor/vagari.firefox/blob/main/share/example-2.png?raw=true"/>
-    </kbd>
-    <br>
-</p>
+[output.webm](https://user-images.githubusercontent.com/59071534/230798554-90d9cbff-9594-4f7b-84d3-99e614165211.webm)
 
 <br>
 
