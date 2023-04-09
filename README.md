@@ -44,8 +44,6 @@
 
 <br>
 
-{% include youtube.html id="8mdr1JvXw1k" %}
-
 <p align="center">
     <kbd>
         <img
