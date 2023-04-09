@@ -44,29 +44,14 @@
 
 <br>
 
-<iframe
-    align="center"
-    width="560"
-    height="350"
-    src="https://www.youtube.com/embed/8mdr1JvXw1k"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+[![video preview](https://img.youtube.com/vi/8mdr1JvXw1k/maxresdefault.jpg)](https://www.youtube.com/watch?v=8mdr1JvXw1k)
 
 
 <p align="center">
     <kbd>
         <img
-            src="https://github.com/nosvagor/vagari.firefox/blob/main/share/example-1.png?raw=true"/>
+            src="https://github.com/nosvagor/vagari.firefox/blob/main/share/example-2.png?raw=true"/>
     </kbd>
-    <br>
-    <br>
-    <kbd>
-        <img
-            src="https://github.com/nosvagor/vagari-firefox/blob/main/share/example-2.png?raw=true"/>
-    </kbd>
-    <br>
 </p>
 
 <br>
