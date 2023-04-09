@@ -1,1 +1,80 @@
-/* I exist to make the find bar better */
+.findbar-closebutton,
+.findbar-find-next,
+.findbar-find-previous {
+  display: none !important;
+}
+
+findbar {
+  background: var(--bg) !important;
+  color: var(--blu-3) !important;
+  transition: all var(--snap) !important;
+  border-top: 0 !important;
+}
+
+findbar .toolbarbutton-icon {
+  fill: var(--blu-3) !important;
+}
+
+findbar .checkbox-check {
+  background-color: var(--drk-0) !important;
+  color: var(--slt-5) !important;
+  border: 1px inset var(--slt-0) !important;
+  border-radius: 6px !important;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25) !important;
+  transition: all var(--snap) !important;
+}
+
+findbar .checkbox-check[checked] {
+  color: var(--orn-4) !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  transition: all var(--snap) !important;
+}
+
+.checkbox-label {
+  color: var(--slt-3) !important;
+  transition: color var(--snap) !important;
+}
+
+.checkbox-label:hover {
+  color: var(--orn-4) !important;
+  transition: color var(--snap) !important;
+}
+
+findbar input {
+  margin-top: -1px !important;
+  margin-right: 2px !important;
+  margin-left: 3px !important;
+  background-color: var(--drk-0) !important;
+  color: var(--slt-5) !important;
+  border: 1px inset var(--slt-0) !important;
+  border-radius: 8px !important;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25) !important;
+  transition: all var(--snap) !important;
+}
+
+findbar input:focus {
+  outline: none !important;
+  color: var(--fg) !important;
+  border-color: var(--slt-0) !important;
+  background-color: var(--drk-1) !important;
+  transition: all var(--snap) !important;
+}
+
+findbar input::selection {
+  background-color: var(--glc-1) !important;
+  color: var(--orn-4) !important;
+}
+
+findbar .found-matches {
+  color: var(--orn-4) !important;
+  font-weight: 600 !important;
+}
+
+findbar .findbar-find-status {
+  color: var(--sky-4) !important;
+}
+
+findbar .findbar-find-status[status="notfound"] {
+  color: var(--rby-2) !important;
+}

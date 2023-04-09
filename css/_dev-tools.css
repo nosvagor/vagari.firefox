@@ -21,9 +21,9 @@
     /* Text Colors */
     --theme-body-color: var(--fg) !important;
     --theme-body-color-alt: var(--blu-4) !important;
-    --theme-content-color1: var(--br-3) !important;
-    --theme-content-color2: var(--glc-5) !important;
-    --theme-content-color3: var(--slt-3) !important;
+    --theme-content-color1: var(--orn-4) !important;
+    --theme-content-color2: var(--prp-4) !important;
+    --theme-content-color3: var(--sky-4) !important;
 
 
     /* Highlight Colors */

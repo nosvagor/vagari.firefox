@@ -1,9 +1,7 @@
-/* cull */
 #context-navigation {
   display: none !important;
 }
 
-/* toolbar menus (alt) */
 #toolbar-menubar {
   background: var(--bg) !important;
   color: var(--fg) !important;

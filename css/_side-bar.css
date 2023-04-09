@@ -1,5 +1,25 @@
-/* I exist to make the side bar look better */
+#sidebar-close, #sidebar-header, #sidebar-search-container {
+  display: none !important;
+}
+
+[lwt-sidebar] {
+  padding-top: 6px !important;
+  background-color: var(--drk-0) !important;
+  color: var(--fg) !important;
+}
+
+#sidebar-splitter {
+  border: none !important;
+  width: 3px !important;
+  background: var(--bg) !important;
+  transition: background var(--snap) !important;
+}
+
+#sidebar-splitter:hover {
+  background: var(--rst-5) !important;
+}
 
 .hidevscroll-scrollbar  {
   display: none !important;
 }
+
