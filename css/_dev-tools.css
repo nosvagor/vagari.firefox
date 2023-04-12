@@ -1,39 +1,45 @@
+/*
+adopted from:
+
+    https://github.com/eduardhojbota/moonlight-userChrome
+
+little changes were made; more work could be done here.
+*/
+
 :root.theme-dark {
-    /* Chrome colors */
-    --theme-tab-toolbar-background: var(--bg) !important;
-    --theme-toolbar-background: var(--bg) !important;
-    --theme-toolbar-hover: var(--bg) !important;
-    --theme-selection-background: var(--glc-2) !important;
-    --theme-selection-color: var(--brt-3) !important;
-    --theme-splitter-color: var(--drk-2) !important;
-    --theme-comment: var(--slt-2) !important;
+  /* Chrome colors */
+  --theme-tab-toolbar-background: var(--bg) !important;
+  --theme-toolbar-background: var(--bg) !important;
+  --theme-toolbar-hover: var(--bg) !important;
+  --theme-selection-background: var(--glc-2) !important;
+  --theme-selection-color: var(--brt-3) !important;
+  --theme-splitter-color: var(--drk-2) !important;
+  --theme-comment: var(--slt-2) !important;
 
+  /* Content Colors */
+  --theme-body-background: var(--bg) !important;
+  --theme-sidebar-background: var(--drk-0) !important;
+  --theme-contrast-background: var(--drk-0) !important;
+  --theme-accordion-header-background: var(--bg) !important;
+  --theme-accordion-header-hover: var(--drk-0) !important;
+  --rule-healder-background-color: var(--bg) !important;
+  --devtools-splitter-color: var(--orn-3) !important;
 
-    /* Content Colors */
-    --theme-body-background: var(--bg) !important;
-    --theme-sidebar-background: var(--drk-0) !important;
-    --theme-contrast-background: var(--drk-0) !important;
-    --theme-accordion-header-background: var(--bg) !important;
-    --theme-accordion-header-hover: var(--drk-0) !important;
-    --rule-healder-background-color: var(--bg) !important;
-    --devtools-splitter-color: var(--orn-3) !important;
+  /* Text Colors */
+  --theme-body-color: var(--fg) !important;
+  --theme-body-color-alt: var(--blu-4) !important;
+  --theme-content-color1: var(--orn-4) !important;
+  --theme-content-color2: var(--prp-4) !important;
+  --theme-content-color3: var(--sky-4) !important;
 
-    /* Text Colors */
-    --theme-body-color: var(--fg) !important;
-    --theme-body-color-alt: var(--blu-4) !important;
-    --theme-content-color1: var(--orn-4) !important;
-    --theme-content-color2: var(--prp-4) !important;
-    --theme-content-color3: var(--sky-4) !important;
-
-
-    /* Highlight Colors */
-    --theme-highlight-blue: var(--blu-3) !important;
-    --theme-highlight-purple: var(--prp-3) !important;
-    --theme-highlight-pink: var(--pnk-3) !important;
-    --theme-highlight-red: var(--rby-3) !important;
-    --theme-highlight-orange: var(--orn-3) !important;
-    --theme-highlight-lightorange: var(--orn-4) !important;
-    --theme-highlight-green: var(--grn-3) !important;
-    --theme-highlight-bluegrey: var(--glc-5) !important;
-    --theme-highlight-yellow: var(--sun-3) !important;
+  /* Highlight Colors */
+  --theme-highlight-blue: var(--blu-3) !important;
+  --theme-highlight-purple: var(--prp-3) !important;
+  --theme-highlight-pink: var(--pnk-3) !important;
+  --theme-highlight-red: var(--rby-3) !important;
+  --theme-highlight-orange: var(--orn-3) !important;
+  --theme-highlight-lightorange: var(--orn-4) !important;
+  --theme-highlight-green: var(--grn-3) !important;
+  --theme-highlight-bluegrey: var(--glc-5) !important;
+  --theme-highlight-yellow: var(--sun-3) !important;
 }

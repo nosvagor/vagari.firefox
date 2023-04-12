@@ -1,3 +1,4 @@
+/* ⚰️  cull annoying things ⚰️ */
 #context-navigation {
   display: none !important;
 }
@@ -37,20 +38,20 @@ menu[_moz-menuactive],
 menu[open],
 menuitem:hover,
 menuitem[_moz-menuactive] {
-    background: var(--glc-2) !important;
-    color: var(--orn-4) !important;
-    transition: color var(--snap) !important;
+  background: var(--glc-2) !important;
+  color: var(--orn-4) !important;
+  transition: color var(--snap) !important;
 }
 
 menu[disabled="true"] {
-    color: var(--glc-3) !important;
+  color: var(--glc-3) !important;
 }
 menuitem[disabled="true"] {
-    color: var(--glc-3) !important;
+  color: var(--glc-3) !important;
 }
 
 panelview {
-    background: var(--bg) !important;
+  background: var(--bg) !important;
 }
 
 panelview toolbarbutton:hover {

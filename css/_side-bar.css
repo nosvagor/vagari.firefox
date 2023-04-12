@@ -1,4 +1,7 @@
-#sidebar-close, #sidebar-header, #sidebar-search-container {
+/* ⚰️  cull annoying things ⚰️ */
+#sidebar-close,
+#sidebar-header,
+#sidebar-search-container {
   display: none !important;
 }
 
@@ -19,7 +22,6 @@
   background: var(--rst-5) !important;
 }
 
-.hidevscroll-scrollbar  {
+.hidevscroll-scrollbar {
   display: none !important;
 }
-

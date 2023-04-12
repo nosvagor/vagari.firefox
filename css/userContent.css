@@ -1,6 +1,7 @@
 @import "_vars.css";
 @import "_dev-tools.css";
 
+/* needs more work, but I hardly use it enough to care*/
 @-moz-document url-prefix(about:) {
   html,
   body {
@@ -18,7 +19,7 @@
   }
 }
 
-/* ⚰️  scrollbar ⚰️ */
+/* ⚰️  cull scrollbar ⚰️ */
 *:not(select) {
   scrollbar-width: none !important;
 }

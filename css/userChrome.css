@@ -5,11 +5,12 @@
 @import "_nav-bar.css";
 @import "_tab-bar.css";
 
+/* probably a better way to do this */
 :root {
   --focus-outline-color: var(--orn-3) !important;
 }
 
-/* Change bars order */
+/* change bars order */
 #titlebar {
   -moz-box-ordinal-group: 3 !important;
 }
@@ -25,6 +26,7 @@
   display: none !important;
 }
 
+/* remove small border on bottom of toolbox */
 #navigator-toolbox {
   border-bottom: 0 !important;
 }
