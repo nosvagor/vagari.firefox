@@ -44,6 +44,10 @@
 
 <br>
 
+## 🪟 Gallery
+
+#### Video showcase
+
 [output.webm](https://user-images.githubusercontent.com/59071534/230798554-90d9cbff-9594-4f7b-84d3-99e614165211.webm)
 
 <br>
@@ -56,7 +60,23 @@ adoption of keyboard shortcuts, rather than relying on the mouse.
 
 Anything not culled is mostly just basic themeing... colors, transitions, sizing, and such.
 
-Eventually, a GTK port of vagari will be made, which will prompt a refactor in order priortize GTK settings.
+Eventually, a GTK port of vagari will be made, which will prompt a refactor in
+order priortize GTK settings, only falling backt to legacy toolkit when
+necessary. For that reason, much of the css is hardcoded, obtuse, and probably
+could be done in a much better way.
+
+Frankly put, I have little need for most of the UI elements I just want it to
+match my theme for the time being.
+
+> Additionally, long ago I copied the work from this [Moonlight userChrome](https://github.com/eduardhojbota/moonlight-userChrome) theme.
+>
+> Definitely check it out, as it might be easier to modify than mine, as
+> I haved disable/hidden many elements. I don't think it's been maintained
+> though, so keep that in mind.
+
+Also, check out [/r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/) for more guideance/ideas!
+
+**Note:** updates often break stylesheets. Stay vigilant!
 
 <br>
 
@@ -116,3 +136,21 @@ ln -sfn path/to/vagari.firefox/css/* $dir
       these to your liking. Pull requests are welcome.</li>
   </ul>
 </ol>
+
+<br>
+
+<p align="center">
+    <a href="https://github.com/nosvagor/vagari.firefox/stargazers">
+        <img
+            src="https://img.shields.io/github/stars/nosvagor/vagari.firefox?color=ecc45d&logo=apachespark&labelColor=24283b&logoColor=ecc45d&style=for-the-badge"
+            title="what is love, baby don't hurt me"
+        >
+    </a>
+    &nbsp;
+    <!-- <a href="https://cullyn.eth/"> -->
+    <!--     <img -->
+    <!--         src="https://img.shields.io/github/sponsors/nosvagor?color=dc60bf&logo=githubsponsors&labelColor=24283b&logoColor=dc60bf&style=for-the-badge" -->
+    <!--         title="github sponsors not set up, pref ETH to cullyn.eth for now" -->
+    <!--     > -->
+    <!-- </a> -->
+</p>
