@@ -44,12 +44,19 @@
 
 <br>
 
-## 🪟 Gallery
+## Video showcase
 
-#### Video showcase
+with commentary:
 
-[output.webm](https://user-images.githubusercontent.com/59071534/230798554-90d9cbff-9594-4f7b-84d3-99e614165211.webm)
+[with commentary](https://user-images.githubusercontent.com/59071534/231578016-8804afa3-1abc-4597-87fa-dc8442fd3af3.mp4)
 
+<br>
+
+no audio: 
+
+[no commentary](https://user-images.githubusercontent.com/59071534/230798554-90d9cbff-9594-4f7b-84d3-99e614165211.webm)
+
+<br>
 <br>
 
 ## 🧭 Design Direction
@@ -138,6 +145,12 @@ ln -sfn path/to/vagari.firefox/css/* $dir
 </ol>
 
 <br>
+
+**bonus preview** _(whole desktop)_ **⚠ loud ⚠️**:
+
+https://user-images.githubusercontent.com/59071534/231580855-9419fc55-9913-4319-8864-2c3b3a99c2e4.mp4
+
+<br> 
 
 <p align="center">
     <a href="https://github.com/nosvagor/vagari.firefox/stargazers">
