@@ -12,13 +12,13 @@
 
 /* change bars order */
 #titlebar {
-  -moz-box-ordinal-group: 3 !important;
+  order: 3 !important;
 }
 #nav-bar {
-  -moz-box-ordinal-group: 2 !important;
+  order: 2 !important;
 }
 #toolbar-menubar {
-  -moz-box-ordinal-group: 1 !important;
+  order: 1 !important;
 }
 
 /* hide bookmarks bar, literally always */
