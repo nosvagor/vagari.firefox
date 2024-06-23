@@ -4,12 +4,7 @@
   display: none !important;
 }
 
-/* disable megabar behavior */
-#urlbar[breakout][breakout-extend] {
-  top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-  left: 0px !important;
-  width: 100% !important;
-}
+
 
 #urlbar[breakout][breakout-extend] > #urlbar-input-container {
   height: var(--urlbar-height) !important;

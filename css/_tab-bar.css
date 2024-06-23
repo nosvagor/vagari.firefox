@@ -24,6 +24,10 @@
   margin: 0 !important;
 }
 
+#tabs-newtab-button {
+  display: none;
+}
+
 #tabbrowser-tabs,
 #tabbrowser-arrowscrollbox {
   min-height: 0 !important;
